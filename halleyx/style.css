@@ -1,0 +1,63 @@
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  .sidenav div{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  .h2{
+    color: white;
+    padding: 5px;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  .button{
+    text-align: right;
+    margin-right: 20px;
+    color: black;
+    margin-top: 1cm;
+    padding: 20px;
+  }
+  .button button{
+    padding: 10px;
+    margin: 5px;
+  }
+  .footerbutton{
+    position: fixed; /* This makes the button stay in one place on the page */
+    bottom: 20px;   /* Adjust this value to change the vertical position */
+    right: 25px;    /* Adjust this value to change the horizontal position */
+    padding: 10px 20px;
+    border: 20px;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  .box{
+    border-style: dotted;
+    width: 85%; /* Take up the full width of the viewport */
+    height: 85vh; /* Take up the full height of the viewport */
+    margin-left: 6cm;
+    margin-right: 0.5cm;
+    box-sizing: border-box;
+    margin-right: 1cm;
+  }
